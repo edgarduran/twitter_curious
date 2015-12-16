@@ -1,6 +1,6 @@
 class TwitterApi
   def self.public_tweets
-    client.user_timeline('BBCNews')
+    client.user_timeline('SportsCenter')
   end
 
   def self.
