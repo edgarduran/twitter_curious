@@ -12,9 +12,9 @@ http_interactions:
       User-Agent:
       - TwitterRubyGem/5.15.0
       Authorization:
-      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="9eb352861447845f7677f7ce889ce45d",
-        oauth_signature="5Z0UFuuDmpcp8Q0VI8AV%2Bzt%2FseQ%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1450328702", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
+      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="d598a6dfbacbab61d753f524fad37f3c",
+        oauth_signature="%2FfVGgwtcB4uu82XeFSmxcPY6hyY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450331714", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -32,18 +32,18 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 17 Dec 2015 05:05:03 GMT
+      - Thu, 17 Dec 2015 05:55:15 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 17 Dec 2015 05:05:03 GMT
+      - Thu, 17 Dec 2015 05:55:15 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A145032870304184636; Domain=.twitter.com; Path=/; Expires=Sat,
-        16-Dec-2017 05:05:03 UTC
+      - guest_id=v1%3A145033171513573833; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 05:55:15 UTC
       - lang=en; Path=/
       Status:
       - 200 OK
@@ -52,7 +52,7 @@ http_interactions:
       X-Access-Level:
       - read-write
       X-Connection-Hash:
-      - 09cf0601034a1ccb4552cf94d5bed4fe
+      - 0c5576a777ed83bcf01ae403e58f663c
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -60,13 +60,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '180'
       X-Rate-Limit-Remaining:
-      - '179'
+      - '177'
       X-Rate-Limit-Reset:
-      - '1450329603'
+      - '1450332333'
       X-Response-Time:
-      - '37'
+      - '26'
       X-Transaction:
-      - 8272186d099cd88a
+      - ce19fb8b84185283
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -98,5 +98,486 @@ http_interactions:
         Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"CollinsworthNBC","name":"Cris
         Collinsworth","id":50464559,"id_str":"50464559","indices":[3,19]}],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"}]'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 05:05:03 GMT
+  recorded_at: Thu, 17 Dec 2015 05:55:15 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="7ed108d38ac2b92b297858bbc7510cef",
+        oauth_signature="MHQGaIFEVBly7V3xfIP3ccHewok%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450331715", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '834'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 05:55:15 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 05:55:15 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145033171539378012; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 05:55:15 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 7af0d04cccb62c1db2c39061e253e57a
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '7'
+      X-Rate-Limit-Reset:
+      - '1450332331'
+      X-Response-Time:
+      - '36'
+      X-Transaction:
+      - 7ec5d840ebf3864e
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":2201978042,"id_str":"2201978042","name":"Nestor Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","status":{"created_at":"Thu
+        Dec 17 02:16:10 +0000 2015","id":677311293863268352,"id_str":"677311293863268352","text":"Crushin''
+        this API shit!","source":"\u003ca href=\"http:\/\/127.0.0.1:3000\/\" rel=\"nofollow\"\u003eEdgar''s
+        OAuth App\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 05:55:15 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="fa05182733430e63d6a7803e38b204b5",
+        oauth_signature="zciKmOXRtGmzyGB2YeCOJAANMlo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450331715", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '834'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 05:55:15 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 05:55:15 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145033171565325011; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 05:55:15 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 4f765e8d948e6f14e7bfd52337ff7a72
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '6'
+      X-Rate-Limit-Reset:
+      - '1450332331'
+      X-Response-Time:
+      - '43'
+      X-Transaction:
+      - cebeeaa48f0d56c6
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":2201978042,"id_str":"2201978042","name":"Nestor Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","status":{"created_at":"Thu
+        Dec 17 02:16:10 +0000 2015","id":677311293863268352,"id_str":"677311293863268352","text":"Crushin''
+        this API shit!","source":"\u003ca href=\"http:\/\/127.0.0.1:3000\/\" rel=\"nofollow\"\u003eEdgar''s
+        OAuth App\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 05:55:15 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="f2ce1e580d7916aed64f62cf69abe39f",
+        oauth_signature="jQLYYpWyFyQFvsuTuKbh7Gka%2B0M%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450331715", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '582'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 05:55:15 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 05:55:15 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145033171592118383; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 05:55:15 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 51cd6df17e70c312b97cf7d667a05dfc
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '5'
+      X-Rate-Limit-Reset:
+      - '1450332331'
+      X-Response-Time:
+      - '21'
+      X-Transaction:
+      - f8d90d1724604a52
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":2201978042,"id_str":"2201978042","name":"Nestor Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 05:55:15 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/followers/list.json?cursor=-1&user_id=2201978042
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="239f05c6b18b044f14554727638e10c3",
+        oauth_signature="%2FXbDLybCgySNVBbcwaKBZ4l%2B%2FzQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450331715", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '3727'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 05:55:16 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 05:55:16 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145033171617056777; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 05:55:16 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - fde711e7906862ea290733bc45eb9e65
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '12'
+      X-Rate-Limit-Reset:
+      - '1450332332'
+      X-Response-Time:
+      - '63'
+      X-Transaction:
+      - eca0c3cc30ca4228
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"users":[{"id":129632378,"id_str":"129632378","name":"iHateFollowers","screen_name":"Arielh2","location":"Denver,
+        CO","description":"Enjoying life :D","url":"http:\/\/t.co\/i50JSo6QoL","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/i50JSo6QoL","expanded_url":"http:\/\/soundcloud.com\/arielh100","display_url":"soundcloud.com\/arielh100","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":85,"friends_count":384,"listed_count":0,"created_at":"Sun
+        Apr 04 23:30:45 +0000 2010","favourites_count":21,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":1362,"lang":"en","status":{"created_at":"Tue
+        Dec 15 06:10:33 +0000 2015","id":676645499621904385,"id_str":"676645499621904385","text":"@Broncos
+        @RAIDERS because the offense had way too many mistakes","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":676637863124066304,"in_reply_to_status_id_str":"676637863124066304","in_reply_to_user_id":18734310,"in_reply_to_user_id_str":"18734310","in_reply_to_screen_name":"Broncos","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":2,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"Broncos","name":"Denver
+        Broncos","id":18734310,"id_str":"18734310","indices":[0,8]},{"screen_name":"RAIDERS","name":"OAKLAND
+        RAIDERS","id":16332223,"id_str":"16332223","indices":[9,17]}],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2722164134\/a9da7c2c84cd50eb0d957dee55051331_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2722164134\/a9da7c2c84cd50eb0d957dee55051331_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false},{"id":3063866090,"id_str":"3063866090","name":"Acxel
+        Chavira","screen_name":"AcxelChavira","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":14,"friends_count":241,"listed_count":0,"created_at":"Fri
+        Mar 06 02:24:45 +0000 2015","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":0,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/573671241418063872\/VlQ4NxGU_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/573671241418063872\/VlQ4NxGU_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false},{"id":602438705,"id_str":"602438705","name":"Jessica
+        DeWitt","screen_name":"jdewitt31","location":"Parker, Colorado","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":11,"friends_count":27,"listed_count":0,"created_at":"Fri
+        Jun 08 03:54:58 +0000 2012","favourites_count":0,"utc_offset":-25200,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":1,"lang":"en","status":{"created_at":"Mon
+        Aug 25 21:58:43 +0000 2014","id":504025104636837888,"id_str":"504025104636837888","text":"Join
+        @lookbookstore #Giveaway to win Free lookbook store Lapel Cotton Suit - Pink
+        !Retweet this to join and win. http:\/\/t.co\/qBd2vyMDp2","source":"\u003ca
+        href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003eTwitter
+        for Websites\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"Giveaway","indices":[20,29]}],"symbols":[],"user_mentions":[{"screen_name":"LookbookStore","name":"Lookbook
+        Store","id":338775942,"id_str":"338775942","indices":[5,19]}],"urls":[{"url":"http:\/\/t.co\/qBd2vyMDp2","expanded_url":"http:\/\/is.gd\/AUjhzw","display_url":"is.gd\/AUjhzw","indices":[113,135]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"6E5D5F","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/575185528\/xa0c1ae038e5dafc153fca18a35cd6a5.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/575185528\/xa0c1ae038e5dafc153fca18a35cd6a5.png","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/542038812814090240\/pUSTyJlG_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/542038812814090240\/pUSTyJlG_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/602438705\/1421847775","profile_link_color":"63A8AD","profile_sidebar_border_color":"D9F5BF","profile_sidebar_fill_color":"ADE0BA","profile_text_color":"81C9B8","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false},{"id":2718384694,"id_str":"2718384694","name":"Kristen","screen_name":"ktru77","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":30,"friends_count":93,"listed_count":1,"created_at":"Sun
+        Jul 20 02:15:38 +0000 2014","favourites_count":14,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":2,"lang":"en","status":{"created_at":"Wed
+        Jul 23 18:59:19 +0000 2014","id":492021154257707008,"id_str":"492021154257707008","text":"Confessions
+        of a Kristen: sometimes when I''m doing squats I start tweaking instead","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/490682576420356097\/o6BOarDn_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/490682576420356097\/o6BOarDn_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2718384694\/1405822817","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false},{"id":717263695,"id_str":"717263695","name":"E","screen_name":"branchbeater","location":"Denver,
+        CO","description":"hello. I fell off the ugly tree hitting every branch on
+        my way down lol. Huge Denver @Broncos fan! #BroncosCountry #PFM #UnitedInOrange
+        #MileHighSalute","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":1589,"friends_count":1989,"listed_count":22,"created_at":"Thu
+        Jul 26 02:57:13 +0000 2012","favourites_count":6132,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":13374,"lang":"en","status":{"created_at":"Thu
+        Dec 17 03:57:56 +0000 2015","id":677336900382822400,"id_str":"677336900382822400","text":"Random
+        lady at the store today told me I had hate in my heart! #HowDidSheKnow","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"HowDidSheKnow","indices":[63,77]}],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/650905611803070465\/JtQuGaTP_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/650905611803070465\/JtQuGaTP_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/717263695\/1366858948","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false},{"id":2403835244,"id_str":"2403835244","name":"Matthew
+        Trujillo","screen_name":"mtruji48","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":11,"friends_count":20,"listed_count":0,"created_at":"Sat
+        Mar 22 14:30:39 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":1,"lang":"en","status":{"created_at":"Sat
+        Mar 22 17:54:34 +0000 2014","id":447431154128269313,"id_str":"447431154128269313","text":"@nnbalerio
+        haha I know right!","source":"\u003ca href=\"http:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":447383855276646402,"in_reply_to_status_id_str":"447383855276646402","in_reply_to_user_id":205469998,"in_reply_to_user_id_str":"205469998","in_reply_to_screen_name":"nnbalerio","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"nnbalerio","name":"Natalie
+        Balerio","id":205469998,"id_str":"205469998","indices":[0,10]}],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/447381322378403841\/WQkrNHxl_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/447381322378403841\/WQkrNHxl_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false},{"id":43555497,"id_str":"43555497","name":"Matt
+        McGrail","screen_name":"DJ_cousinmatt","location":"Annapolis, MD","description":"DJ
+        and Nascar enthusiast. Yeah, I''m pretty interesting.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":75,"friends_count":260,"listed_count":1,"created_at":"Sat
+        May 30 16:53:23 +0000 2009","favourites_count":33,"utc_offset":-18000,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":195,"lang":"en","status":{"created_at":"Wed
+        Dec 02 21:32:14 +0000 2015","id":672166407757545472,"id_str":"672166407757545472","text":"@slinganswers
+        WebOS is the system that LG Smart TVs use. Sling announced in January it would
+        be arriving to WebOS in the coming months.","source":"\u003ca href=\"http:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":672165497861877760,"in_reply_to_status_id_str":"672165497861877760","in_reply_to_user_id":2841496889,"in_reply_to_user_id_str":"2841496889","in_reply_to_screen_name":"slinganswers","geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"slinganswers","name":"Sling
+        Answers","id":2841496889,"id_str":"2841496889","indices":[0,13]}],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000103595009\/7b3ce3d6374609c841c25478ba035e22.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000103595009\/7b3ce3d6374609c841c25478ba035e22.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000658995985\/352ab87ed6b128d99033bf8d50c6af71_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000658995985\/352ab87ed6b128d99033bf8d50c6af71_normal.jpeg","profile_link_color":"009999","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false},{"id":2208098810,"id_str":"2208098810","name":"Edgar
+        Duran","screen_name":"edgarduran303","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":2,"friends_count":15,"listed_count":0,"created_at":"Fri
+        Nov 22 01:19:38 +0000 2013","favourites_count":0,"utc_offset":-28800,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":1,"lang":"en","status":{"created_at":"Tue
+        Dec 15 21:25:01 +0000 2015","id":676875633041928192,"id_str":"676875633041928192","text":"Consuming
+        API''s is a hobby of mine. #API","source":"\u003ca href=\"http:\/\/twitter.com\"
+        rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"API","indices":[36,40]}],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/676443832871837696\/9H6Lg--a_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/676443832871837696\/9H6Lg--a_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2208098810\/1450111776","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false},{"id":367325731,"id_str":"367325731","name":"Heather
+        Benedict","screen_name":"heath_be","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":87,"friends_count":165,"listed_count":0,"created_at":"Sat
+        Sep 03 19:45:12 +0000 2011","favourites_count":35,"utc_offset":-25200,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":675,"lang":"en","status":{"created_at":"Sat
+        Jan 03 00:38:27 +0000 2015","id":551175722329337856,"id_str":"551175722329337856","text":"I''m
+        going to Denver Escape Room on Friday, January 9. https:\/\/t.co\/b9cilo4LzN","source":"\u003ca
+        href=\"https:\/\/dev.twitter.com\/docs\/tfw\" rel=\"nofollow\"\u003eTwitter
+        for Websites\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/b9cilo4LzN","expanded_url":"https:\/\/bookeo.com\/go\/3153NJMUMU14823AE2877?viral=153501039522689","display_url":"bookeo.com\/go\/3153NJMUMU1\u2026","indices":[54,77]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2096453805\/gtjqHA7k_normal","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2096453805\/gtjqHA7k_normal","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false},{"id":60511178,"id_str":"60511178","name":"Geo","screen_name":"CrunkHam","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":503,"friends_count":538,"listed_count":4,"created_at":"Mon
+        Jul 27 06:25:03 +0000 2009","favourites_count":202,"utc_offset":-21600,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":8698,"lang":"en","status":{"created_at":"Sat
+        Dec 12 22:51:50 +0000 2015","id":675810320213024768,"id_str":"675810320213024768","text":"Missing
+        You Already........\ud83d\ude10\ud83d\ude13\ud83d\ude24","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/712998832\/47e0b1922f3d1f5e0ba08b600ad9a472.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/712998832\/47e0b1922f3d1f5e0ba08b600ad9a472.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/576121865825054720\/2T6PuM_8_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/576121865825054720\/2T6PuM_8_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/60511178\/1386028860","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false,"muting":false,"blocking":false,"blocked_by":false}],"next_cursor":0,"next_cursor_str":"0","previous_cursor":0,"previous_cursor_str":"0"}'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 05:55:16 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/statuses/user_timeline.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="f146c2d1a214aa1ddcecbdf688f5644a",
+        oauth_signature="0znjRurEC9XSMO9wwv5JsplUPzg%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450331716", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1413'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 05:55:16 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 05:55:16 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145033171645804564; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 05:55:16 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - fcce1b2985550bf888c5a2622568db0e
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '180'
+      X-Rate-Limit-Remaining:
+      - '176'
+      X-Rate-Limit-Reset:
+      - '1450332333'
+      X-Response-Time:
+      - '32'
+      X-Transaction:
+      - 6e79e4431fe8c39c
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"created_at":"Thu Dec 17 02:16:10 +0000 2015","id":677311293863268352,"id_str":"677311293863268352","text":"Crushin''
+        this API shit!","source":"\u003ca href=\"http:\/\/127.0.0.1:3000\/\" rel=\"nofollow\"\u003eEdgar''s
+        OAuth App\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2201978042,"id_str":"2201978042","name":"Nestor
+        Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Wed
+        May 21 02:12:41 +0000 2014","id":468937392431583234,"id_str":"468937392431583234","text":"#inksausage
+        dude has been killing it the whole time","source":"\u003ca href=\"http:\/\/www.WindowsPhone.com\/\"
+        rel=\"nofollow\"\u003eWindows Phone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2201978042,"id_str":"2201978042","name":"Nestor
+        Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"inksausage","indices":[0,11]}],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Mon
+        Jan 20 17:12:12 +0000 2014","id":425314832552689664,"id_str":"425314832552689664","text":"@NFL_AM
+        how come Belichick is crying about the cross play, Edelman did the same thing
+        to DRC, take responsibility for your loss #soreloser","source":"\u003ca href=\"http:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":575014349,"in_reply_to_user_id_str":"575014349","in_reply_to_screen_name":"NFLHQ","user":{"id":2201978042,"id_str":"2201978042","name":"Nestor
+        Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"soreloser","indices":[128,138]}],"symbols":[],"user_mentions":[{"screen_name":"NFL_AM","name":"Diana
+        Ridley","id":4302156141,"id_str":"4302156141","indices":[0,7]}],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Mon
+        Nov 25 03:03:09 +0000 2013","id":404807441323282432,"id_str":"404807441323282432","text":"If
+        @CollinsworthNBC hated the Broncos anymore, he would hang himself after this
+        half.","source":"\u003ca href=\"http:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2201978042,"id_str":"2201978042","name":"Nestor
+        Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"CollinsworthNBC","name":"Cris
+        Collinsworth","id":50464559,"id_str":"50464559","indices":[3,19]}],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"}]'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 05:55:16 GMT
 recorded_with: VCR 3.0.0

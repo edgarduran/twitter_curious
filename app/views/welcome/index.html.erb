@@ -1,8 +1,15 @@
-<h1>Twitter Curious</h1>
-<p>Almost as good as the real thing</p>
+<head>
+ <link rel="favicon.ico" type="image/x-icon" href="favicon.ico" />`
+</head>
+<div class="center-align">
+  <h1>Are you Twitter curious?</h1>
+  <p>Almost as good as the real thing</p>
+</div>
 
-<% if current_user %>
-  <%= link_to "Get Tweeting", home_path %>
-<% else %>
-  <%= link_to "Login", login_path %>
-<% end %>
+<div class="center-align">
+  <% if current_user %>
+    <%= link_to "Get Tweeting", home_path, class:"btn large light-blue lighten-3"%>
+  <% else %>
+    <%= link_to "Login", login_path, class:"btn large light-blue lighten-3"%>
+  <% end %>
+</div>

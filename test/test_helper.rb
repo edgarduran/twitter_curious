@@ -5,6 +5,8 @@ require 'capybara/rails'
 require 'mocha/mini_test'
 require 'webmock'
 require 'vcr'
+require 'simplecov'
+SimpleCov.start
 
 class ActiveSupport::TestCase
  fixtures :all
@@ -35,14 +37,14 @@ class ActionDispatch::IntegrationTest
       provider: 'twitter',
       extra: {
         raw_info: {
-          user_id: "1234",
+          uid: "1234",
           name: "Horace",
           screen_name: "worace",
         }
       },
       credentials: {
-        token: "pizza",
-        secret: "secretpizza"
+        oauth_token: "pizza",
+        oauth_token_secret: "secretpizza"
       }
     })
   end

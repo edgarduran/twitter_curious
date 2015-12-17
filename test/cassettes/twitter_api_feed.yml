@@ -12,9 +12,9 @@ http_interactions:
       User-Agent:
       - TwitterRubyGem/5.15.0
       Authorization:
-      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="da2b3721d490c7c2529c92064e50a98e",
-        oauth_signature="VdY1fBsqYMAjQG4q0zm2k9EfeH4%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1450328702", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
+      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="5682f5eee2fff22f1b376e5046a347de",
+        oauth_signature="jgUIhzbqHU70IxaI8svv8ucfrio%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450331714", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
         oauth_version="1.0"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -32,18 +32,18 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 17 Dec 2015 05:05:02 GMT
+      - Thu, 17 Dec 2015 05:55:14 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 17 Dec 2015 05:05:02 GMT
+      - Thu, 17 Dec 2015 05:55:14 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_a
       Set-Cookie:
-      - guest_id=v1%3A145032870276074343; Domain=.twitter.com; Path=/; Expires=Sat,
-        16-Dec-2017 05:05:02 UTC
+      - guest_id=v1%3A145033171480301954; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 05:55:14 UTC
       - lang=en; Path=/
       Status:
       - 200 OK
@@ -52,7 +52,7 @@ http_interactions:
       X-Access-Level:
       - read-write
       X-Connection-Hash:
-      - 6151ec6116960625bd4d5ecfa30b3f15
+      - 12fe46868b2cc6b39e8d5cae645d9a44
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -60,13 +60,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '15'
       X-Rate-Limit-Remaining:
-      - '13'
+      - '8'
       X-Rate-Limit-Reset:
-      - '1450329440'
+      - '1450332331'
       X-Response-Time:
-      - '35'
+      - '50'
       X-Transaction:
-      - 7f26f262f780bbf3
+      - 1af23b7d049d319a
       X-Twitter-Response-Tags:
       - BouncerCompliant
       - BouncerExempt
@@ -80,5 +80,5 @@ http_interactions:
         this API shit!","source":"\u003ca href=\"http:\/\/127.0.0.1:3000\/\" rel=\"nofollow\"\u003eEdgar''s
         OAuth App\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
     http_version: 
-  recorded_at: Thu, 17 Dec 2015 05:05:02 GMT
+  recorded_at: Thu, 17 Dec 2015 05:55:14 GMT
 recorded_with: VCR 3.0.0

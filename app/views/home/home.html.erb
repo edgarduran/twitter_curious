@@ -1,5 +1,3 @@
-<h1>Twitter Curious</h1>
-<p>Almost as good as the real thing</p>
 
 <div class="container">
   <h2>Hello, <%= current_user.name %></h2>
@@ -11,7 +9,6 @@
   <%= image_tag(@twitter.user_info.profile_image_url) %>
   <%= image_tag(@twitter.user_info.profile_banner_url) %>
 </div>
-<% binding.pry %>
 
 <%= form_tag tweets_path, method: :post do %>
 <%= label_tag "What's Happening?" %>
@@ -20,16 +17,18 @@
 <% end %>
 
 <div class="center-align container">
+  <h2>Your Feed</h2><br><br>
   <% @twitter.homepage_tweets.each do |tweet| %>
   <div class="row">
       <div class="card light-blue lighten-3">
         <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
+          <%= image_tag tweet.user.profile_image_url %>
+          <span class="card-title"><%= tweet.user.name %></span><br>
+          <span class="title">@<%= tweet.user.handle %></span>
           <p><%= tweet.text %></p>
         </div>
         <div class="card-action">
           <%= button_to "like", tweet_path(tweet.id), method: :put %>
-          <a href="#">This is a link</a>
         </div>
       </div>
   </div>
