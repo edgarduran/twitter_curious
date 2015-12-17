@@ -1,0 +1,15 @@
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper light-blue lighten-3">
+      <a href="#" class="brand-logo center"><%= image_tag('white twitter.png', height: '50') %></a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><h4>Twitter Curious</h4></li>
+      </ul>
+      <% if current_user %>         
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><h5><%= link_to "Logout", logout_path %></h5></li>
+        </ul>
+      <% end %>
+    </div>
+  </nav>
+</div>
