@@ -1,0 +1,116 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://WI7zhpmPNxfe3OVS4EhB2s48c:SsCXtffqpZywIdNeqeJ7Vklao5PSLM8LxAjOtZr9eG8Tn69vtZ@api.twitter.com/oauth2/token
+    body:
+      encoding: UTF-8
+      string: grant_type=client_credentials
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Content-Type:
+      - application/x-www-form-urlencoded; charset=UTF-8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '153'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 17:32:24 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 17:32:24 GMT
+      Ml:
+      - S
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145037354490000828; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 17:32:24 UTC
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Connection-Hash:
+      - e63ce0c2d00ba50dcf77c032d38de00f
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Response-Time:
+      - '24'
+      X-Transaction:
+      - 8fb1dd7fb435fe69
+      X-Tsa-Request-Body-Time:
+      - '0'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"token_type":"bearer","access_token":"AAAAAAAAAAAAAAAAAAAAAPDsjAAAAAAAChLxoxUNZRvC7JlT0%2FqbpAtprAs%3Dd89iQmXnsA9rU2xbZzGAeUF4ULvfjbYCF5lCKBUEf01MbImALA"}'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 17:32:24 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAAPDsjAAAAAAAChLxoxUNZRvC7JlT0%2FqbpAtprAs%3Dd89iQmXnsA9rU2xbZzGAeUF4ULvfjbYCF5lCKBUEf01MbImALA
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Content-Length:
+      - '106'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 17:32:25 GMT
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145037354540299168; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 17:32:25 UTC
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Connection-Hash:
+      - 56013860b4b55ded04a2f7ee99d780ec
+      X-Response-Time:
+      - '8'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"errors":[{"message":"Your credentials do not allow access to this
+        resource","code":220}]}'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 17:32:25 GMT
+recorded_with: VCR 3.0.0

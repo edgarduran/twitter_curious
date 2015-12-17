@@ -1,4 +1,17 @@
-
+<script> $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
+</script>
+<div class="slider">
+  <ul class="slides">
+    <li>
+      <%= image_tag(@twitter.user_info.profile_banner_url) %>
+      <div class="caption bottom-left-align">
+        <h2 class="black-text light">Name: <%= @twitter.user_info.name %></h2>
+      </div>
+    </li>
+  </ul>
+</div>
 <div class="container">
   <h2>Hello, <%= current_user.name %></h2>
   <h4>Name: <%= @twitter.user_info.name %></h4>
@@ -7,7 +20,6 @@
   <h4>Following: <%= @twitter.following.count %></h4>
   <h4>Tweets: <%= @twitter.tweets.count %></h4>
   <%= image_tag(@twitter.user_info.profile_image_url) %>
-  <%= image_tag(@twitter.user_info.profile_banner_url) %>
 </div>
 
 <%= form_tag tweets_path, method: :post do %>
@@ -22,9 +34,9 @@
   <div class="row">
       <div class="card light-blue lighten-3">
         <div class="card-content white-text">
-          <%= image_tag tweet.user.profile_image_url %>
+          <span><%= image_tag tweet.user.profile_image_url, class:"circle" %></span><br>
           <span class="card-title"><%= tweet.user.name %></span><br>
-          <span class="title">@<%= tweet.user.handle %></span>
+          <span class="title grey-text text-darken-3">@<%= tweet.user.handle %></span><br>
           <p><%= tweet.text %></p>
         </div>
         <div class="card-action">

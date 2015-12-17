@@ -30,7 +30,6 @@ class ActionDispatch::IntegrationTest
   end
 
   def stub_omniauth
-
     OmniAuth.config.test_mode = true
 
     OmniAuth.config.mock_auth[:twitter] = OmniAuth::AuthHash.new({
@@ -38,13 +37,13 @@ class ActionDispatch::IntegrationTest
       extra: {
         raw_info: {
           uid: "1234",
-          name: "Horace",
-          screen_name: "worace",
+          name: "Nestor Duran",
+          screen_name: "nesduran89",
         }
       },
       credentials: {
-        oauth_token: "pizza",
-        oauth_token_secret: "secretpizza"
+        oauth_token: ENV['oauth_token'],
+        oauth_token_secret: ENV['oauth_token_secret']
       }
     })
   end

@@ -14,14 +14,14 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-12-16T22:55:16-07:00">2015-12-16T22:55:16-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-12-17T10:40:14-07:00">2015-12-17T10:40:14-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">76.23%</span></span>
+    (<span class="covered_percent"><span class="red">77.42%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
@@ -32,9 +32,9 @@
   <a name="AllFiles"></a>
   <div>
     <b>19</b> files in total.
-    <b>122</b> relevant lines. 
-    <span class="green"><b>93</b> lines covered</span> and
-    <span class="red"><b>29</b> lines missed </span>
+    <b>124</b> relevant lines. 
+    <span class="green"><b>96</b> lines covered</span> and
+    <span class="red"><b>28</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -57,7 +57,7 @@
         <td>5</td>
         <td>5</td>
         <td>0</td>
-        <td>1.8</td>
+        <td>1.6</td>
       </tr>
       
       <tr>
@@ -202,22 +202,22 @@
       
       <tr>
         <td class="strong"><a href="#c0e63543afe9824ba13876b219b3e35083739eb0" class="src_link" title="test/integration/user_logs_in_with_twitter_test.rb">test/integration/user_logs_in_with_twitter_test.rb</a></td>
-        <td class="red strong">40.0 %</td>
-        <td>16</td>
-        <td>10</td>
-        <td>4</td>
-        <td>6</td>
-        <td>0.4</td>
+        <td class="yellow strong">81.82 %</td>
+        <td>18</td>
+        <td>11</td>
+        <td>9</td>
+        <td>2</td>
+        <td>0.8</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#c33cbe859f37087b917c9182646a07353ee32f50" class="src_link" title="test/integration/user_sees_dashboard_with_profile_test.rb">test/integration/user_sees_dashboard_with_profile_test.rb</a></td>
-        <td class="red strong">66.67 %</td>
-        <td>16</td>
-        <td>9</td>
+        <td class="red strong">40.0 %</td>
+        <td>15</td>
+        <td>10</td>
+        <td>4</td>
         <td>6</td>
-        <td>3</td>
-        <td>0.7</td>
+        <td>0.4</td>
       </tr>
       
       <tr>
@@ -312,8 +312,8 @@
           <code class="ruby">  def current_user</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="8">
-          <span class="hits">5</span>
+        <li class="covered" data-hits="4" data-linenumber="8">
+          <span class="hits">4</span>
           
           <code class="ruby">    @current_user ||= User.find_by(id: session[:user_id]) if session[:user_id]</code>
         </li>
@@ -1513,11 +1513,11 @@
         <div class="source_table" id="c0e63543afe9824ba13876b219b3e35083739eb0">
   <div class="header">
     <h3>test/integration/user_logs_in_with_twitter_test.rb</h3>
-    <h4><span class="red">40.0 %</span> covered</h4>
+    <h4><span class="yellow">81.82 %</span> covered</h4>
     <div>
-      <b>10</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
-      <span class="red"><b>6</b> lines missed.</span>
+      <b>11</b> relevant lines. 
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
   </div>
   
@@ -1557,64 +1557,76 @@
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">    skip</code>
+          <code class="ruby">    VCR.use_cassette(&#39;user_login&#39;) do</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="7">
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    visit &quot;/&quot;</code>
+          <code class="ruby">      visit &quot;/&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="8">
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    assert_equal 200, page.status_code</code>
+          <code class="ruby">      assert_equal 200, page.status_code</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="9">
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    click_link &quot;Login&quot;</code>
+          <code class="ruby">      click_link &quot;Login&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="10">
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    assert_equal &quot;/&quot;, current_path</code>
+          <code class="ruby">      assert_equal &quot;/&quot;, current_path</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    assert page.has_content?(&quot;Horace&quot;)</code>
+          <code class="ruby">      click_link &quot;Get Tweeting&quot;</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="12">
           
           
-          <code class="ruby">    assert page.has_link?(&quot;Logout&quot;)</code>
+          <code class="ruby">      assert page.has_content?(&quot;Horace&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="missed" data-hits="0" data-linenumber="13">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">      assert page.has_link?(&quot;Logout&quot;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
           
           
           <code class="ruby">end</code>
@@ -1627,11 +1639,11 @@
         <div class="source_table" id="c33cbe859f37087b917c9182646a07353ee32f50">
   <div class="header">
     <h3>test/integration/user_sees_dashboard_with_profile_test.rb</h3>
-    <h4><span class="red">66.67 %</span> covered</h4>
+    <h4><span class="red">40.0 %</span> covered</h4>
     <div>
-      <b>9</b> relevant lines. 
-      <span class="green"><b>6</b> lines covered</span> and
-      <span class="red"><b>3</b> lines missed.</span>
+      <b>10</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>6</b> lines missed.</span>
     </div>
   </div>
   
@@ -1665,31 +1677,31 @@
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
+          <code class="ruby">    skip</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="6">
+          
+          
           <code class="ruby">    visit &#39;/&#39;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="7">
+          
           
           <code class="ruby">    click_link &quot;Login&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
           
           <code class="ruby">    click_link &quot;Get Tweeting&quot;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
@@ -1698,37 +1710,31 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="12">
+        <li class="missed" data-hits="0" data-linenumber="11">
           
           
           <code class="ruby">    assert page.has_content?(&quot;Horace&quot;)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="13">
+        <li class="missed" data-hits="0" data-linenumber="12">
           
           
           <code class="ruby">    assert page.has_content?(&quot;Worace&quot;)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="14">
+        <li class="missed" data-hits="0" data-linenumber="13">
           
           
           <code class="ruby">    assert page.has_link?(&quot;Logout&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="15">
+        <li class="never" data-hits="" data-linenumber="14">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="16">
+        <li class="never" data-hits="" data-linenumber="15">
           
           
           <code class="ruby">end</code>
