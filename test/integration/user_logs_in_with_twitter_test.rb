@@ -9,7 +9,7 @@ class UserLogsInWithTwitterTest < ActionDispatch::IntegrationTest
       click_link "Login"
       assert_equal "/", current_path
       click_link "Get Tweeting"
-      assert page.has_content?("Horace")
+      assert page.has_content?("Nestor Duran")
       assert page.has_link?("Logout")
     end
   end

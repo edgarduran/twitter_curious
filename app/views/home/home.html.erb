@@ -2,11 +2,14 @@
       $('.slider').slider({full_width: true});
     });
 </script>
+<head>
+ <link rel="favicon.ico" type="image/x-icon" href="favicon.ico" />
+</head>
 <div class="slider">
   <ul class="slides">
     <li>
       <%= image_tag(@twitter.user_info.profile_banner_url) %>
-      <div class="caption bottom-left-align">
+      <div class="col s4 caption left-align">
         <h2 class="black-text light">Name: <%= @twitter.user_info.name %></h2>
       </div>
     </li>
@@ -37,6 +40,9 @@
           <span><%= image_tag tweet.user.profile_image_url, class:"circle" %></span><br>
           <span class="card-title"><%= tweet.user.name %></span><br>
           <span class="title grey-text text-darken-3">@<%= tweet.user.handle %></span><br>
+            <% if tweet.media.present? %>
+                <img src="<%= tweet.media.first.media_url %>">
+            <% end %><br>
           <p><%= tweet.text %></p>
         </div>
         <div class="card-action">
