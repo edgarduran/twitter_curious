@@ -10,6 +10,7 @@
 <%= image_tag(@twitter.user_info.profile_image_url) %>
 <%= image_tag(@twitter.user_info.profile_banner_url) %>
 
+
 <%= form_tag tweets_path, method: :post do %>
   <%= label_tag "What's Happening?" %>
   <%= text_field_tag "tweet[message]", nil, maxlength: 140 %>
