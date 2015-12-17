@@ -2,10 +2,10 @@ class HomeController < ApplicationController
 
   def home
     if current_user
-    @twitter ||= twitter_api
-  else
-    redirect_to welcome_path
-  end
+      @twitter ||= twitter_api
+    else
+      redirect_to welcome_index
+    end
   end
 
 

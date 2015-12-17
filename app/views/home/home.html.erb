@@ -1,22 +1,24 @@
 <h1>Twitter Curious</h1>
 <p>Almost as good as the real thing</p>
 
-<% if current_user %>
-  <h2>Hello, <%= current_user.name %></h2>
-  <h4>Name: <%= @twitter.user_info.name %></h4>
-  <h4>Handle: <%= @twitter.user_info.user_name %></h4>
-  <h4>Followers: <%=@twitter.followers.count %></h4>
-  <h4>Following: <%= @twitter.following.count %></h4>
-  <h4>Tweets: <%= @twitter.tweets.count %></h4>
-  <%= image_tag(@twitter.user_info.profile_image_url) %>
-  <%= image_tag(@twitter.user_info.profile_banner_url) %>
+<h2>Hello, <%= current_user.name %></h2>
+<h4>Name: <%= @twitter.user_info.name %></h4>
+<h4>Handle: <%= @twitter.user_info.user_name %></h4>
+<h4>Followers: <%=@twitter.followers.count %></h4>
+<h4>Following: <%= @twitter.following.count %></h4>
+<h4>Tweets: <%= @twitter.tweets.count %></h4>
+<%= image_tag(@twitter.user_info.profile_image_url) %>
+<%= image_tag(@twitter.user_info.profile_banner_url) %>
 
-  <ul>
-    <% @twitter.homepage_tweets.each do |tweet| %>
-      <li><%= tweet.text %></li>
-    <% end %>
-  </ul>
-  <%= link_to "Logout", logout_path %>
-<% else %>
-  <%= link_to "Login", login_path %>
+<%= form_tag tweets_path, method: :post do %>
+  <%= label_tag "What's Happening?" %>
+  <%= text_field_tag "tweet[message]", nil, maxlength: 140 %>
+  <%= submit_tag "Submit" %>
 <% end %>
+
+<ul>
+  <% @twitter.homepage_tweets.each do |tweet| %>
+  <li><%= tweet.text %></li>
+  <% end %>
+</ul>
+<%= link_to "Logout", logout_path %>

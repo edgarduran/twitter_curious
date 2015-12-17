@@ -20,19 +20,31 @@ class TwitterApi
   end
 
   def user_info
-    client.user("edgarduran303")
+    client.user
   end
 
   def followers
-    client.followers("edgarduran303")
+    client.followers
   end
 
   def following
-    client.friends("edgarduran303")
+    client.friends
   end
 
   def tweets
-    client.user_timeline("edgarduran303")
+    client.user_timeline
+  end
+
+  def send_tweet(message)
+    client.update(message)
+  end
+
+  def follow(user)
+    client.follow(user)
+  end
+
+  def friends
+    client.friends
   end
 
 end
