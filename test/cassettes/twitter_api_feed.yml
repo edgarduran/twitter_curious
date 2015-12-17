@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="da2b3721d490c7c2529c92064e50a98e",
+        oauth_signature="VdY1fBsqYMAjQG4q0zm2k9EfeH4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450328702", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '834'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 05:05:02 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 05:05:02 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145032870276074343; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 05:05:02 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 6151ec6116960625bd4d5ecfa30b3f15
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '13'
+      X-Rate-Limit-Reset:
+      - '1450329440'
+      X-Response-Time:
+      - '35'
+      X-Transaction:
+      - 7f26f262f780bbf3
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":2201978042,"id_str":"2201978042","name":"Nestor Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","status":{"created_at":"Thu
+        Dec 17 02:16:10 +0000 2015","id":677311293863268352,"id_str":"677311293863268352","text":"Crushin''
+        this API shit!","source":"\u003ca href=\"http:\/\/127.0.0.1:3000\/\" rel=\"nofollow\"\u003eEdgar''s
+        OAuth App\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 05:05:02 GMT
+recorded_with: VCR 3.0.0

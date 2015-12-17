@@ -3,10 +3,17 @@ require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
 require 'capybara/rails'
 require 'mocha/mini_test'
+require 'webmock'
+require 'vcr'
 
 class ActiveSupport::TestCase
-  # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-  fixtures :all
+ fixtures :all
+
+ VCR.configure do |config|
+   config.cassette_library_dir = "test/cassettes"
+   config.hook_into :webmock
+ end
+
 end
 class ActionDispatch::IntegrationTest
   include Capybara::DSL

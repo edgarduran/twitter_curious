@@ -1,0 +1,102 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/statuses/user_timeline.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="WI7zhpmPNxfe3OVS4EhB2s48c", oauth_nonce="9eb352861447845f7677f7ce889ce45d",
+        oauth_signature="5Z0UFuuDmpcp8Q0VI8AV%2Bzt%2FseQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1450328702", oauth_token="2201978042-O14xRvTZcQw8llAHQNvOZA5DIEZrtdOoA7G4uYR",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1413'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 17 Dec 2015 05:05:03 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 17 Dec 2015 05:05:03 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A145032870304184636; Domain=.twitter.com; Path=/; Expires=Sat,
+        16-Dec-2017 05:05:03 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 09cf0601034a1ccb4552cf94d5bed4fe
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '180'
+      X-Rate-Limit-Remaining:
+      - '179'
+      X-Rate-Limit-Reset:
+      - '1450329603'
+      X-Response-Time:
+      - '37'
+      X-Transaction:
+      - 8272186d099cd88a
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"created_at":"Thu Dec 17 02:16:10 +0000 2015","id":677311293863268352,"id_str":"677311293863268352","text":"Crushin''
+        this API shit!","source":"\u003ca href=\"http:\/\/127.0.0.1:3000\/\" rel=\"nofollow\"\u003eEdgar''s
+        OAuth App\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2201978042,"id_str":"2201978042","name":"Nestor
+        Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Wed
+        May 21 02:12:41 +0000 2014","id":468937392431583234,"id_str":"468937392431583234","text":"#inksausage
+        dude has been killing it the whole time","source":"\u003ca href=\"http:\/\/www.WindowsPhone.com\/\"
+        rel=\"nofollow\"\u003eWindows Phone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2201978042,"id_str":"2201978042","name":"Nestor
+        Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"inksausage","indices":[0,11]}],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Mon
+        Jan 20 17:12:12 +0000 2014","id":425314832552689664,"id_str":"425314832552689664","text":"@NFL_AM
+        how come Belichick is crying about the cross play, Edelman did the same thing
+        to DRC, take responsibility for your loss #soreloser","source":"\u003ca href=\"http:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":575014349,"in_reply_to_user_id_str":"575014349","in_reply_to_screen_name":"NFLHQ","user":{"id":2201978042,"id_str":"2201978042","name":"Nestor
+        Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"soreloser","indices":[128,138]}],"symbols":[],"user_mentions":[{"screen_name":"NFL_AM","name":"Diana
+        Ridley","id":4302156141,"id_str":"4302156141","indices":[0,7]}],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Mon
+        Nov 25 03:03:09 +0000 2013","id":404807441323282432,"id_str":"404807441323282432","text":"If
+        @CollinsworthNBC hated the Broncos anymore, he would hang himself after this
+        half.","source":"\u003ca href=\"http:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2201978042,"id_str":"2201978042","name":"Nestor
+        Duran","screen_name":"nesduran89","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":10,"friends_count":25,"listed_count":0,"created_at":"Mon
+        Nov 18 21:02:40 +0000 2013","favourites_count":1,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000787047874\/6ffaaabf59052f20f22e650e0de4ba15_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2201978042\/1450311063","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"CollinsworthNBC","name":"Cris
+        Collinsworth","id":50464559,"id_str":"50464559","indices":[3,19]}],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"}]'
+    http_version: 
+  recorded_at: Thu, 17 Dec 2015 05:05:03 GMT
+recorded_with: VCR 3.0.0

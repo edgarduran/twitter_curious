@@ -39,6 +39,10 @@ class TwitterApi
     client.update(message)
   end
 
+  def favorite_tweet(fave)
+    client.favorite(fave)
+  end
+
   def follow(user)
     client.follow(user)
   end
